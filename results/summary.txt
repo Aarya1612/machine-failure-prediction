@@ -1,0 +1,9 @@
+Machine Failure Predictor - summary
+Rows: 10000, failures: 339 (3.39 %)
+Train rows: 8000, test rows: 2000
+Final model: Random Forest (none)
+Best settings: {'model__max_depth': 'None', 'model__n_estimators': '30'}
+Alert threshold: 0.533
+Test results at this threshold: precision=0.964, recall=0.794, f1=0.871, pr_auc=0.880, roc_auc=0.976, accuracy=0.992
+Confusion matrix: TN=1930 FP=2 FN=14 TP=54
+scikit-learn 1.6.1, imbalanced-learn 0.14.2

@@ -1,0 +1,7 @@
+model,class_weight,none,smote
+AdaBoost,,0.475,0.43
+Decision Tree,0.633,0.888,0.574
+KNN,,0.46,0.453
+LDA,,0.406,0.285
+Logistic Regression,0.271,0.374,0.274
+Random Forest,0.842,0.89,0.737
